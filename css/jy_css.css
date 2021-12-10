@@ -1,0 +1,135 @@
+/*join.png*/
+.error {
+  margin-bottom: 2.2rem;
+  justify-content: space-between;
+}
+.checkValue {
+  margin-bottom: 2.2rem;
+  justify-content: space-between;
+}
+.errorText {
+  display: none;
+  color: #dc572f;
+  margin-top: 1rem;
+}
+.successText {
+  display: none;
+  color: #399BD8;
+  margin-top: 1rem;
+}
+.recatchTable {
+  width: 100%;
+  margin-bottom: 2.2rem;
+  justify-content: space-between;
+  border-collapse: collapse;
+}
+
+.btn-set {
+  width: 100%;
+}
+/*pw_find.php*/
+.phoneText {
+  display: none;
+}
+.phoneText-error {
+  color: red;
+}
+
+.bannerCheck {
+  width: 18px;
+  height: 18px;
+}
+.banner {
+  object-fit: contain;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.banner-img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+/*use_review_form.php*/
+.tag {
+  display: inline-block;
+}
+.tag-box {
+  border: 1px solid rgb(2, 145, 2);
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 30px;
+  margin-left: 5px;
+  color: rgb(2, 145, 2);
+}
+.del-btn {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 3px;
+}
+/*카테고리 관리 - 국가, 국제*/
+.nation-td {
+  background-color: lightgrey;
+  font-weight: bolder;
+}
+.nationn-select {
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  border: 1px solid #aaa;
+  border-radius: 0.25rem;
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+}
+.nation-input {
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  border: 1px solid #aaa;
+  border-radius: 0.25rem;
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+}
+/*카테고리 관리 - 국제*/
+.co_td {
+  width: 150px;
+}
+/*일반회원 관리*/
+.box {
+  padding: 5px;
+  border-radius: 5px;
+}
+.box_nomal {
+  color: rgb(2, 145, 2);
+  border: 1px solid rgb(2, 145, 2);
+}
+.box_secession {
+  color: red;
+  border: 1px solid red;
+}
+.box_sleep {
+  color: rgb(219, 219, 0);
+  border: 1px solid rgb(219, 219, 0);
+}
+.point-select {
+  width: 30%;
+  height: calc(1.5em + 0.75rem + 2px);
+  border: 1px solid #aaa;
+  border-radius: 0.25rem;
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  margin-bottom: 10px;
+}
+
+.faq {
+  width: calc(100% - 4rem);
+  position: relative;
+  color: #222;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
