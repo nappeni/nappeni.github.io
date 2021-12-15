@@ -76,6 +76,7 @@ input[type="radio"]{
     border: 1px solid #ccc;
 }
 
+.border-0 {border: 0px !important;}
 .border-1-de {border: 1px solid #dedede;}
 .border-1-aaa {border: 1px solid #aaa;}
 .border-1-ccc {border: 1px solid #ccc;}
